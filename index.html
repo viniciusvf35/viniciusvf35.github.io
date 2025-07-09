@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="css/flag-icon.min.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -50,12 +51,33 @@
 						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
 					</div><!-- #logo end -->
 
+					
+										
 					<!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu" class="style-3">
+					<nav id="primary-menu">
+						<div>
+						<ul class="sub-menu-container">
+							<li>
+								<a class="menu-link" href="#" style="padding-top: 39px; padding-bottom: 39px;"><div>Language<i class="icon-angle-down"></i></div></a>
+								<ul class="sub-menu-container">
+									<li class="menu-item">
+										<a class="menu-link" href="#"><div>English <span class="flag-icon flag-icon-us"></span></div></a>
+									</li>
+									
+									<li class="menu-item">
+										<a class="menu-link" href="#"><div>Spanish</div></a>
+									</li>
+									<li class="menu-item">
+										<a class="menu-link" href="#"><div>Portuguese</div></a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						</div>
 
 
-								<div id="icones-top">
+								<!--<div id="icones-top">
 										<a href="http://www.facebook.com/viniciusvf" class="social-icon si-small si-borderless si-facebook">
 										<i class="icon-facebook"></i>
 										<i class="icon-facebook"></i>
@@ -71,6 +93,7 @@
 										<i class="icon-linkedin"></i>
 									</a>
 								</div>
+								-->
 
 
 					</nav><!-- #primary-menu end -->
@@ -166,10 +189,10 @@
 				<ul id="portfolio-filter" class="portfolio-filter clearfix" data-container="#portfolio">
 
 					<li class="activeFilter"><a href="#" data-filter="*">All</a></li>
+					<li><a href="#" data-filter=".pf-video">Videos</a></li>
 					<li><a href="#" data-filter=".pf-web">Web</a></li>
 					<li><a href="#" data-filter=".pf-logos">Logos</a></li>
 					<li><a href="#" data-filter=".pf-book">Book Covers</a></li>
-					<li><a href="#" data-filter=".pf-video">Videos</a></li>
 					<li><a href="#" data-filter=".pf-business">Business Cards</a></li>
 
 				</ul><!-- #portfolio-filter end -->
@@ -184,6 +207,47 @@
 				============================================= -->
 				<div id="portfolio" class="portfolio grid-container portfolio-nomargin clearfix">
 
+					<article class="portfolio-item pf-video">
+						<div class="portfolio-image">
+							<a href="portfolio-single.html">
+								<img src="images/portfolio/4/19.jpg" alt="Locked Steel Gate">
+							</a>
+							<div class="portfolio-overlay">
+								<a href="https://youtu.be/cVZGRwSKmcI" target="_blank" class="center-icon" data-lightbox="video"><i class="icon-line-plus"></i></a>
+							</div>
+						</div>
+						<div class="portfolio-desc">
+							<h3><a target="_blank" href="#">BYD</a></h3>
+							<span><a href="#">Video</a></span>
+						</div>
+					</article>
+
+					<article class="portfolio-item pf-business">
+						<div class="portfolio-image">
+							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
+								<div class="flexslider">
+									<div class="slider-wrap">
+										<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/10.jpg" alt="Morning Dew"></a></div>
+										<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/11.jpg" alt="Morning Dew"></a></div>
+										<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/12.jpg" alt="Morning Dew"></a></div>
+										<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/13.jpg" alt="Morning Dew"></a></div>
+									</div>
+								</div>
+							</div>
+							<div class="portfolio-overlay" data-lightbox="gallery">
+								<a href="images/portfolio/full/10.jpg" class="center-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
+								<a href="images/portfolio/full/11.jpg" class="hidden" data-lightbox="gallery-item"></a>
+								<a href="images/portfolio/full/12.jpg" class="hidden" data-lightbox="gallery-item"></a>
+								<a href="images/portfolio/full/13.jpg" class="hidden" data-lightbox="gallery-item"></a>
+							</div>
+						</div>
+						<div class="portfolio-desc">
+							<h3><a href="#">Business Cards</a></h3>
+							<span><a href="#">Business Cards</a>, <a href="#">Graphic Design</a></span>
+						</div>
+					</article>
+				
+					
 					<article class="portfolio-item pf-web">
 						<div class="portfolio-image">
 							<a href="portfolio-single.html">
@@ -285,32 +349,7 @@
 						</div>
 					</article>
 
-					<article class="portfolio-item pf-business">
-						<div class="portfolio-image">
-							<div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
-								<div class="flexslider">
-									<div class="slider-wrap">
-										<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/10.jpg" alt="Morning Dew"></a></div>
-										<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/11.jpg" alt="Morning Dew"></a></div>
-										<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/12.jpg" alt="Morning Dew"></a></div>
-										<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/13.jpg" alt="Morning Dew"></a></div>
-									</div>
-								</div>
-							</div>
-							<div class="portfolio-overlay" data-lightbox="gallery">
-								<a href="images/portfolio/full/10.jpg" class="center-icon" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-								<a href="images/portfolio/full/11.jpg" class="hidden" data-lightbox="gallery-item"></a>
-								<a href="images/portfolio/full/12.jpg" class="hidden" data-lightbox="gallery-item"></a>
-								<a href="images/portfolio/full/13.jpg" class="hidden" data-lightbox="gallery-item"></a>
-							</div>
-						</div>
-						<div class="portfolio-desc">
-							<h3><a href="#">Business Cards</a></h3>
-							<span><a href="#">Business Cards</a>, <a href="#">Graphic Design</a></span>
-						</div>
-					</article>
-
-
+					
 					<article class="portfolio-item pf-logos">
 						<div class="portfolio-image">
 							<a href="portfolio-single.html">
